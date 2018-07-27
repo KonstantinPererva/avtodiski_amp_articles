@@ -1,0 +1,29 @@
+.catalog-filter {
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid $c-main;
+  background: $c-bg-dark;
+
+  &-title  {
+    display: flex;
+    font-size: 14px;
+    color: $c-main;
+    font-weight: 900;
+    font-family: $f-os;
+    height: 45px;
+    text-align: center;
+
+    &__text {
+      margin: auto;
+    }
+  }
+
+  &__inner {
+    display: none;
+  }
+
+  &-wrapper {
+    clear: both;
+  }
+}

@@ -1,0 +1,19 @@
+.text-mob-signature {
+  text-align: center;
+  padding: 0 0 40px;
+
+  &__text {
+    display: block;
+    font-size: 14px;
+    font-family: $f-os;
+    color: $c-text-main;
+  }
+
+  &__company {
+    display: block;
+    font-size: 14px;
+    font-family: $f-os;
+    color: $c-text-main;
+    font-weight: 600;
+  }
+}

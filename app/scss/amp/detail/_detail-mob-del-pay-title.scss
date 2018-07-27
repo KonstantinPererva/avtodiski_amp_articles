@@ -1,0 +1,14 @@
+.detail-mob-del-pay-title {
+  display: block;
+  margin: 0;
+  padding: 10px 0 8px;
+  text-align: center;
+
+  &__text {
+    font-size: 14px;
+    color: $c-text-main;
+    font-family: $f-os;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}

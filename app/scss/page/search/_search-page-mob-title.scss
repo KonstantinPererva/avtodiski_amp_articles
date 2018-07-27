@@ -1,0 +1,19 @@
+.search-page-mob-title {
+  padding: 20px;
+
+  &__text {
+    font-size: 16px;
+    color: #fff;
+    font-family: $f-os;
+    margin: 0 8px 0 0;
+    font-weight: 900;
+  }
+
+  &__result {
+    font-size: 16px;
+    color: $c-main;
+    font-family: $f-os;
+    margin: 0 8px 0 0;
+    font-weight: 900;
+  }
+}

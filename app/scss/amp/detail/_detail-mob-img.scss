@@ -1,0 +1,13 @@
+.detail-mob-img {
+
+  @media screen and (min-width: 1024px) {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  &__link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+}

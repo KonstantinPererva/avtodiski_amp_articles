@@ -1,0 +1,73 @@
+.panel-mob {
+  display: block;
+  height: 56px;
+  padding: 0 0 0 10px;
+
+  @media screen and (min-width: 640px) {
+    padding: 0;
+    width: 632px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 0 0 0 10px;
+    width: 1024px;
+  }
+  
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  &__wrapper {
+    float: right;
+    
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+  &__logo {
+    float: left;
+    padding: 2px 0 0;
+    text-decoration: none;
+  }
+
+  &__search {
+    position: relative;
+    float: left;
+
+    @media screen and (min-width: 640px) {
+      padding: 7px 0 0;
+    }
+  }
+
+  &__basket {
+    float: left;
+    width: 100px;
+
+    @media screen and (min-width: 640px) {
+      width: 120px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 124px;
+    }
+  }
+
+  &__button {
+    float: right;
+  }
+
+  &_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+  }
+}

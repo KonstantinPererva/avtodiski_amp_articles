@@ -1,0 +1,12 @@
+.cart-mob-card-price-old {
+  display: block;
+
+  &__num {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: $f-os;
+    color: $c-red;
+    text-decoration: line-through;
+  }
+}

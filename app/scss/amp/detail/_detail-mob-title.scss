@@ -1,0 +1,20 @@
+.detail-mob-title {
+  display: block;
+  margin: 0;
+  background: $c-light;
+  text-align: center;
+  padding: 10px;
+
+  @media screen and (min-width: 1024px) {
+    padding: 20px 10px  40px;
+  }
+
+  &__text {
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: $f-os;
+    color: $c-text-main;
+    font-weight: 600;
+  }
+}

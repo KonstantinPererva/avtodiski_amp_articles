@@ -1,0 +1,115 @@
+.catalog-mob {
+  background: $c-bg-main;
+
+  & * {
+    box-sizing: border-box;
+  }
+
+  &__button-sel-car {
+    margin-bottom: 7px;
+
+    @media screen and (min-width: 632px) {
+      width: 250px;
+      float: right;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 398px;
+    }
+  }
+
+  & .goods-card {
+    width: 146px;
+  }
+  
+  & .factory-size {
+    padding-bottom: 20px;
+  }
+  & .factory-size, & .replacement-options {
+    display: flex;
+    
+    &__title {
+      flex-shrink: 0;
+      font-size: 14px;
+      color: #fff;
+      font-family: $f-os;
+      font-weight: normal;
+    }
+    
+    &__num {
+      flex-grow: 1;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    &__link {
+      display: inline-block;
+      color: $c-main;
+      font-size: 14px;
+      text-decoration: underline;
+      padding: 0 6px 12px;
+
+      &_act {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    &__text {
+      display: inline-block;
+      color: $c-main;
+      font-size: 14px;
+      padding: 0 6px 12px;
+    }
+  }
+
+  .catalog-mob-options {
+    display: flex;
+
+    &__title {
+      flex-shrink: 0;
+      font-size: 14px;
+      color: #fff;
+      font-family: $f-os;
+      font-weight: normal;
+    }
+
+    &__num {
+      flex-grow: 1;
+    }
+
+    &__link {
+      display: inline-block;
+      color: $c-main;
+      font-size: 14px;
+      text-decoration: underline;
+      padding: 0 6px 12px;
+
+      &:empty {
+        display: none;
+      }
+
+      &_act {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    &__text {
+      display: inline-block;
+      color: $c-main;
+      font-size: 14px;
+      padding: 0 6px 12px;
+
+      &:empty {
+        display: none;
+      }
+    }
+
+    &-wrap {
+      padding: 20px 0;
+      clear: both;
+    }
+  }
+}
+

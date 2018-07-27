@@ -1,0 +1,13 @@
+.footer {
+  border-top: 4px solid $c-main;
+  background: $c-bg-main;
+  padding: 20px 10px;
+
+  & .text-mob-list-wrapper {
+    padding: 0 0 10px;
+  }
+
+  & .text-mob-list {
+    padding: 0;
+  }
+}

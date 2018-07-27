@@ -1,0 +1,47 @@
+.panel-mob {
+  display: block;
+  padding: 0 0 0 10px;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  @media screen and (min-width: 640px) {
+    width: 632px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+  }
+
+  &__wrapper {
+    float: right;
+    width: 140px;
+  }
+
+  &__logo {
+    float: left;
+    text-decoration: none;
+  }
+
+  &__button {
+    float: right;
+  }
+
+  &__tel {
+    float: left;
+    width: 56px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & amp-img {
+      display: block;
+      margin: auto;
+    }
+  }
+}

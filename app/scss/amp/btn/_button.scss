@@ -1,0 +1,75 @@
+.button-mob {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+
+  &_buy {
+    width: 118px;
+    height: 28px;
+    line-height: 26px;
+    border: 1px solid #e5cb00;
+    background: $c-main;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: none;
+      background: $c-main;
+    }
+
+    & .button-mob__text {
+      font-size: 12px;
+      color: $c-text-main;
+      text-transform: uppercase;
+    }
+  }
+
+  &_main {
+    width: 236px;
+    height: 42px;
+    line-height: 40px;
+    border: 1px solid #e5cb00;
+    background: $c-main;
+    margin: 0 auto;
+
+    & .button-mob__text {
+      font-size: 16px;
+      color: $c-text-main;
+    }
+  }
+
+  &_dark {
+    width: 236px;
+    height: 42px;
+    line-height: 40px;
+    border: 1px solid #000;
+    background: $c-bg-dark;
+    margin: 0 auto;
+
+    & .button-mob__text {
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+
+  &_transparent {
+    width: 178px;
+    height: 39px;
+    line-height: 37px;
+    border: 1px solid $c-bg-main;
+    background: none;
+    margin: 0 auto;
+
+    & .button-mob__text {
+      font-size: 12px;
+      color: $c-text-main;
+    }
+  }
+
+  &__text {
+    font-weight: 600;
+    font-family: $f-os;
+    text-decoration: none;
+  }
+}

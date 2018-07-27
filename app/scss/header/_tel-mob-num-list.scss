@@ -1,0 +1,59 @@
+.tel-mob-num-list {
+  display: none;
+  position: absolute;
+  top: 9px;
+  left: -7px;
+  min-width: 170px;
+  background: $c-bg-dark;
+  border: 1px solid $c-main;
+  border-radius: 2px;
+  list-style: none;
+  padding: 0 8px 0 0;
+  margin: 0;
+  z-index: 5000000;
+  opacity: 0;
+  transition: opacity .3s;
+
+  @media screen and (min-width: 640px) {
+    display: block !important;
+    position: relative;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    list-style: none;
+    padding: 0 8px 0 0;
+    margin: 0;
+    z-index: 0;
+    opacity: 1 !important;
+  }
+
+  &__item + &__item {
+    border-top: 1px solid #434026;
+
+    @media screen and (min-width: 640px) {
+      border-top: 0;
+    }
+  }
+
+  &__item {
+
+    @media screen and (min-width: 640px) {
+      display: inline-block;
+      border-top: 0;
+    }
+  }
+
+  &__item:nth-child(2) .tel-mob-num {
+
+    @media screen and (min-width: 640px) {
+      padding: 0 0 0 16px;
+    }
+  }
+
+  &__item:nth-child(3) .tel-mob-num {
+
+    @media screen and (min-width: 640px) {
+      padding: 0 0 0 16px;
+    }
+  }
+}

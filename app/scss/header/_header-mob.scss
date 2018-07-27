@@ -1,0 +1,44 @@
+.header-mob {
+  position: relative;
+  background: $c-bg-main;
+
+  &_active {
+    z-index: 20;
+  }
+
+  &_fixed {
+    padding-bottom: 56px;
+  }
+
+  &__tel {
+    position: relative;
+    display: block;
+    height: 50px;
+    padding: 0 10px;
+
+    @media screen and (min-width: 640px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0;
+      width: 632px;
+      margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 1024px;
+      justify-content: flex-start;
+      padding: 0 0 0 10px;
+    }
+  }
+
+  &__menu {
+    position: relative;
+    display: none;
+    z-index: 1000;
+  }
+
+  &__panel {
+    background: $c-dark;
+  }
+}

@@ -1,0 +1,55 @@
+.page-mob-new {
+  text-align: center;
+
+  &__wrap-img {
+    display: block;
+    outline: none;
+  }
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__title {
+    display: block;
+    margin: 0;
+    padding: 10px 0 0;
+    font-size: 18px;
+    color: $c-text-main;
+    font-family: $f-os;
+    font-weight: 900;
+    text-decoration: none;
+    outline: none;
+  }
+
+  &__date {
+    margin: 0;
+    padding: 5px 0 10px;
+    font-size: 12px;
+    color: $c-text-main;
+    font-family: $f-os;
+  }
+
+  &__descr {
+    margin: 0;
+    font-size: 14px;
+    color: $c-text-main;
+    font-family: $f-os;
+  }
+
+  & p {
+    margin: 0;
+    font-size: 14px;
+    color: $c-text-main;
+    font-family: $f-os;
+  }
+}
+
+.page-mob-content a img.page-mob-new__img {
+  margin: 0 auto;
+}
+
+.page-mob-content a.page-mob-new__title {
+  color: $c-text-main;
+}

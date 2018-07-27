@@ -1,0 +1,109 @@
+.mobile {
+  min-width: 320px;
+}
+
+.mobile footer {
+  padding-top: 20px;
+  height: auto;
+}
+
+footer {
+  height: auto;
+}
+
+.mobile header {
+  height: auto;
+  margin-bottom: auto;
+  z-index: 999999;
+  margin-top: auto;
+  background: none;
+  padding-bottom: auto;
+}
+
+.mobile .three_blocks {
+  margin-bottom: 0;
+}
+
+.three_blocks .text .box {
+  padding: 0;
+}
+
+.mobile .three_blocks .text .left, .mobile .three_blocks .text .right {
+  width: auto;
+}
+
+.three_blocks .text .left, .three_blocks .text .right {
+  width: auto;
+  float: none;
+}
+
+.mobile .three_blocks .jq-selectbox__select {
+  height: auto;
+  padding: 0;
+}
+
+.mobile .three_blocks .jq-selectbox__select-text {
+  font-size: inherit;
+}
+
+.mobile .three_blocks .left_p, .mobile .three_blocks .right_p {
+  width: auto;
+}
+
+.mobile .three_blocks .center_p, .mobile .three_blocks .right_p {
+  width: 48%;
+}
+
+.mobile .three_blocks .center_p {
+  margin: 0;
+}
+
+.three_blocks .center_p {
+  width: auto;
+  margin: 0;
+  float: none;
+}
+
+.three_blocks .right_p, .three_blocks .left_p {
+  width: auto;
+  float: none;
+}
+
+.mobile #scroller {
+  background-size: auto;
+  background: none;
+  width: auto;
+  height: auto;
+  right: 10px;
+  bottom: 10px;
+}
+
+.mobile .block > .header {
+  height: auto;
+  padding: 12px 0 12px 22px;
+}
+
+.mobile .breadcrumbs {
+  padding: 0;
+}
+
+.mobile .margin > .block {
+  margin-bottom: 0;
+}
+
+.mobile .margin > .catalog_center.catalog_center_big > .block {
+  margin-bottom: 0;
+}
+
+.mobile .margin > .catalog_left.p_left > .block {
+  min-height: inherit;
+  margin-bottom: 0;
+}
+//
+//.mobile .goods_sort {
+//  display: inline-block;
+//
+//  @media screen and (min-width: 640px) {
+//    display: inline-block;
+//  }
+//}

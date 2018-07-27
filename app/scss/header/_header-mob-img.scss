@@ -1,0 +1,14 @@
+.header-mob-img {
+  display: block;
+}
+
+.header-mob-logo {
+  width: 100px;
+  position: relative;
+  top: 3px;
+
+  @media screen and (min-width: 360px) {
+    top: 0;
+    width: 114px;
+  }
+}

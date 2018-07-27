@@ -1,0 +1,20 @@
+.goods-card-data {
+  display: block;
+  height: 42px;
+  text-align: center;
+  padding: 0 2px;
+  overflow: hidden;
+
+  &_line-6 {
+    height: 84px;
+  }
+
+  &__text {
+    display: block;
+    line-height: 14px;
+    color: $c-text-main;
+    font-family: $f-os;
+    font-size: 13px;
+    white-space: initial;
+  }
+}

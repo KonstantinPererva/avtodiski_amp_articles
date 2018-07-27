@@ -1,0 +1,42 @@
+.catalog-mob-goods-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 20px 6.5px;
+  z-index: 1;
+  width: 320px;
+  background: $c-light;
+  margin: 0 auto;
+
+  @media screen and (min-width: 480px) {
+    width: 490px;
+    padding: 20px 5px;
+  }
+
+  @media screen and (min-width: 632px) {
+    width: 648px;
+    padding: 20px 0;
+    margin: 0 -8px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 976px;
+  }
+
+  & .action-swiper-list__item {
+    margin: 0 3.5px 10px;
+
+    @media screen and (min-width: 480px) {
+      margin: 0 5px 10px;
+    }
+
+    @media screen and (min-width: 632px) {
+      margin: 0 8px 10px;
+    }
+  }
+
+  & .goods-card, & .action-swiper-list__item {
+    width: 146px !important;
+  }
+}

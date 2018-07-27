@@ -1,0 +1,15 @@
+.filters-search-slider {
+  margin: 0 0 26px;
+
+  & .step {
+    display: none;
+  }
+
+  & .ui-slider {
+    width: 96%;
+
+    @media screen and (min-width: 632px) {
+      width: 98%;
+    }
+  }
+}

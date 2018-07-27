@@ -1,0 +1,17 @@
+.text-block-mob {
+  background: $c-light;
+  padding: 24px 10px 0;
+
+  &__inner {
+
+    @media screen and (min-width: 700px) {
+      width: 650px;
+      margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 1000px;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.cart-mob-total-old {
+
+  &__sum {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: $f-os;
+    color: $c-red;
+    text-decoration: line-through;
+  }
+
+  &__currency {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: $f-os;
+    color: $c-red;
+  }
+}

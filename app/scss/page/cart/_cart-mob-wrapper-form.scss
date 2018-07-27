@@ -1,0 +1,14 @@
+.cart-mob-wrapper-form {
+  padding: 10px;
+
+  @media screen and (min-width: 640px) {
+    padding: 10px 30px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 10px 0;
+    width: 400px;
+    float: left;
+    margin-top: -34px;
+  }
+}

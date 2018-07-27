@@ -1,0 +1,73 @@
+.basket-mob {
+  position: relative;
+  display: block;
+  height: 56px;
+  text-decoration: none;
+  margin: 0 auto;
+
+  &__ico {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    right: 0;
+    margin: auto;
+    display: block;
+    height: 27px;
+    width: 30px;
+  }
+
+  &__num {
+    position: absolute;
+    top: 14px;
+    right: 52px;
+    display: block;
+    width: 21px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: $c-main;
+    font-size: 16px;
+    font-family: $f-os;
+    font-weight: 600;
+  }
+
+  &__sum {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: $c-gray-l;
+    font-size: 14px;
+    font-family: $f-os;
+    font-weight: 600;
+  }
+
+  &__cur {
+    font-size: 10px;
+    margin: 0 0 0 3px;
+  }
+}
+
+#countcart.basket-mob__num {
+  position: absolute;
+  text-align: center;
+  padding-top: 1px;
+  border-radius: 50%;
+  min-width: 20px;
+  background: none;
+  font-weight: 600;
+  top: 14px;
+  right: 58px;
+  display: block;
+  width: 21px;
+  height: 12px;
+  line-height: 12px;
+  color: $c-main;
+  font-size: 16px;
+  font-family: $f-os;
+
+  @media screen and (min-width: 640px) {
+    right: 72px;
+  }
+}

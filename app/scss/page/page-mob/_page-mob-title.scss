@@ -1,0 +1,43 @@
+.page-mob-title {
+  position: relative;
+  margin: 0;
+  padding: 12px 10px;
+  background: $c-bg-dark;
+  text-align: center;
+
+  &_bgn {
+    background: none;
+    padding: 0 10px;
+
+    & .page-mob-title__text {
+      font-size: 16px;
+      color: $c-text-main;
+      text-transform: uppercase;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    color: #fff;
+    font-family: $f-os;
+    font-weight: 600;
+  }
+
+  &__buttom {
+    padding: 10px 0 0;
+  }
+
+  & .higen_menu_news {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  & .higen_menu_news-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0 0;
+  }
+}

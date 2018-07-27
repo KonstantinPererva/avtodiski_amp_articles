@@ -1,0 +1,50 @@
+.cart-mob-card-amount {
+  flex-shrink: 0;
+  display: flex;
+  width: 82px;
+  height: 30px;
+  border: 1px solid $c-main;
+  border-radius: 2px;
+  background: $c-main;
+  align-items: center;
+
+  &__minus {
+    display: flex;
+    width: 24px;
+    height: 28px;
+
+    & svg {
+      margin: auto;
+    }
+  }
+
+  &__plus {
+    display: flex;
+    width: 24px;
+    height: 28px;
+
+    & svg {
+      margin: auto;
+    }
+  }
+
+  &__num {
+    display: block;
+    width: 34px;
+    height: 28px;
+    font-size: 16px;
+    font-family: $f-os;
+    font-weight: 900;
+    text-align: center;
+    background: #fff;
+    color: $c-text-main;
+    border-radius: 2px;
+    border: 0;
+  }
+
+  & .dec, & .inc {
+    float: none;
+    background: none;
+    margin: 0;
+  }
+}

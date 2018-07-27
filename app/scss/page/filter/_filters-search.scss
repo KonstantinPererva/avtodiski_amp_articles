@@ -1,0 +1,37 @@
+.filters-search {
+
+  & .ui-slider .ui-slider-handle {
+    top: -10px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+  }
+
+  & .ui-slider .ui-slider-range {
+    left: 15px !important;
+  }
+
+  & .ui-slider .ui-slider-handle:after {
+    display: none;
+  }
+
+  & .ui-slider {
+    margin: 0 0 30px;
+  }
+
+  & .prise_filters {
+    padding: 0 15px;
+
+    & .filters-search-title {
+      margin: 0 0 14px;
+    }
+  }
+
+  &__row {
+    border-bottom: 1px solid #434026;
+
+    &_border-top {
+      border-top: 1px solid #434026;
+    }
+  }
+}

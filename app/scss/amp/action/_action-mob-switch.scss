@@ -1,0 +1,34 @@
+.action-mob-switch {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  min-height: 39px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto;
+  background: url(/images/svg/bg-top-page.svg) no-repeat center top;
+  background-size: cover;
+  padding: 10px 24px;
+
+
+  & .switch-substrate__img {
+    fill: $c-light;
+  }
+
+  &__substrate {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    right: -2px;
+  }
+
+  &__text {
+    position: relative;
+    display: block;
+    color: $c-text-main;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $f-os;
+    z-index: 3;
+  }
+}

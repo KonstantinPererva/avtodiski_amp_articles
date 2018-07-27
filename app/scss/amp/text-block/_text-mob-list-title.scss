@@ -1,0 +1,10 @@
+.text-mob-list-title {
+  padding: 0 0 3px;
+
+  &__text {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: $f-os;
+    color: $c-text-main;
+  }
+}

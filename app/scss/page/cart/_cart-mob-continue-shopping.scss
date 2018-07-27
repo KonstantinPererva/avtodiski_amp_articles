@@ -1,0 +1,8 @@
+.cart-mob-continue-shopping {
+  padding: 10px;
+
+  @media screen and (min-width: 1024px) {
+    order: 1;
+    padding: 0;
+  }
+}

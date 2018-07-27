@@ -1,0 +1,16 @@
+.page-mob-title {
+  position: relative;
+  margin: 0;
+  padding: 12px 10px;
+  text-align: center;
+
+  &__text {
+    position: relative;
+    display: block;
+    color: $c-text-main;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    z-index: 3;
+  }
+}

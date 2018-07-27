@@ -1,0 +1,24 @@
+.action-mob-tab-list {
+  position: relative;
+  min-height: 434px;
+  background: $c-light;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: opacity .3s;
+
+    &_active {
+      position: relative;
+      z-index: 3;
+      opacity: 1;
+    }
+  }
+}

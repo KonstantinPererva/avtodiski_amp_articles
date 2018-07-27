@@ -1,0 +1,53 @@
+.detail-mob-characteristics {
+  padding: 0 10px 17px;
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 640px) {
+    padding: 17px 0 17px;
+  }
+
+  & table th {
+    background: #3d3d3d;
+    border: 1px solid #3d3d3d;
+    text-align: center;
+    text-transform: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: $f-os;
+  }
+
+  & table th:first-letter {
+    text-transform: uppercase;
+  }
+
+  & table tr:nth-child(even) {
+    background: #fafafa;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #fff;
+  text-align: left;
+  border: 1px solid #d0d0d0;
+}
+
+.mobile table th {
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+table td {
+  padding: 8px 20px;
+  font-size: 14px;
+  border-right: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+table a, table td {
+  color: #282828;
+}

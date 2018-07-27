@@ -1,0 +1,10 @@
+.detail-mob-warning {
+
+  &__hold {
+    padding: 20px 10px 8px;
+
+    @media screen and (min-width: 640px) {
+      padding: 20px 0 8px;
+    }
+  }
+}

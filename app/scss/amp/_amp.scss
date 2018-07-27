@@ -1,0 +1,29 @@
+amp-carousel.action-swiper-list > div {
+  padding: 0 0 10px;
+}
+
+amp-carousel.action-swiper-list .amp-scrollable-carousel-slide,
+amp-carousel.action-swiper-list .amp-scrollable-carousel-slide:first-child{
+  margin: 4px;
+}
+
+amp-carousel.action-swiper-list {
+  width: 288px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 640px) {
+    width: 616px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 924px;
+  }
+}
+
+amp-carousel.action-swiper-list .amp-carousel-button-next {
+  right: 0;
+}
+
+amp-carousel.action-swiper-list .amp-carousel-button-prev {
+  left: 0;
+}

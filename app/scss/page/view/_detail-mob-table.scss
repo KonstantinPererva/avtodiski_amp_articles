@@ -1,0 +1,65 @@
+.detail-mob-table {
+
+  & .block_tabs {
+    margin: 0;
+  }
+
+  & .block_tabs .tabs li {
+    font-size: 12px;
+    padding: 6px 10px;
+
+    @media screen and (min-width: 360px) {
+      font-size: 14px;
+    }
+
+    @media screen and (min-width: 640px) {
+      padding: 9px 22px;
+    }
+  }
+  
+  & table th {
+    background: #3d3d3d;
+    border: 1px solid #3d3d3d;
+    font-size: 10px;
+    font-family: $f-os;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+
+    @media screen and (min-width: 360px) {
+      font-size: 11px;
+    }
+
+    @media screen and (min-width: 400px) {
+      font-size: 12px;
+    }
+
+    @media screen and (min-width: 480px) {
+      font-size: 14px;
+    }
+  }
+
+  & .tabs_content table td {
+    font-size: 7px;
+    padding: 6px 3px;
+
+    @media screen and (min-width: 360px) {
+      font-size: 8px;
+      padding: 6px 5px;
+    }
+
+    @media screen and (min-width: 480px) {
+      font-size: 13px;
+    }
+
+    @media screen and (min-width: 640px) {
+      font-size: 14px;
+      padding: 6px 10px;
+    }
+  }
+
+  & .block_tabs .tabs_content .button {
+    width: auto;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,56 @@
+.filter-mob-button-list {
+  background: $c-bg-main;
+  list-style: none;
+  padding: 20px 10px 27px;
+  min-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (min-width: 640px) {
+    padding: 20px 0 27px;
+    width: 632px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 984px;
+  }
+
+  &__item {
+    width: 50%;
+
+    @media screen and (min-width: 640px) {
+      width: 306px;
+      min-width: 306px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 314px;
+    }
+
+    &_left {
+      padding-right: 3px;
+
+      @media screen and (min-width: 640px) {
+        padding: 0;
+      }
+    }
+
+    &_right {
+      padding-left: 3px;
+
+      @media screen and (min-width: 640px) {
+        padding: 0;
+      }
+    }
+
+    &_banner {
+      display: none;
+
+      @media screen and (min-width: 1024px) {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.page-mob-review {
+
+  & .customer {
+    font-size: 16px;
+    font-weight: 900;
+  }
+
+  & .date {
+    font-size: 12px;
+  }
+
+  & p {
+    font-size: 14px;
+  }
+}
+
+.mobile #modal_open .review_text.review-wrapper {
+
+  @media screen and (min-width: 320px) {
+    width: 240px !important;
+  }
+
+  @media screen and (min-width: 360px) {
+    width: 280px !important;
+  }
+}
+
+#review_form {
+  margin: 0 -20px;
+
+  & div {
+    font-size: 12px;
+    font-family: $f-os;
+    color: $c-text-popup;
+    padding: 10px 0 0;
+  }
+
+  & input.styler {
+    width: 100%;
+    display: block;
+    height: 34px;
+    border: 1px solid #a3a3a3;
+    border-radius: 2px;
+    background: #fff;
+    font-size: 14px;
+    font-family: $f-os;
+    color: $c-text-main;
+    font-weight: 600;
+    padding: 0 12px;
+    box-shadow: none;
+  }
+
+  & textarea {
+    width: 100%;
+    display: block;
+    border: 1px solid #a3a3a3;
+    border-radius: 2px;
+    background: #fff;
+    font-size: 14px;
+    font-family: $f-os;
+    color: $c-text-main;
+    font-weight: 600;
+    padding: 0 12px;
+    resize: none;
+    box-shadow: none;
+  }
+}

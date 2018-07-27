@@ -1,0 +1,14 @@
+.detail-mob-wrapper-country {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+
+  @media screen and (min-width: 640px) {
+    padding: 0 0 20px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    justify-content: flex-start;
+  }
+}

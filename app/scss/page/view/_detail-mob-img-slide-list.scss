@@ -1,0 +1,14 @@
+.detail-mob-img-slide-list {
+  display: flex;
+  padding: 7px 0;
+  overflow: hidden;
+  width: 100%;
+
+  &__item {
+    flex-shrink: 0;
+  }
+
+  &__item + &__item {
+    margin: 0 0 0 4px;
+  }
+}

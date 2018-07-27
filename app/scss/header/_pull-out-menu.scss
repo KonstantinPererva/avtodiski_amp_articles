@@ -1,0 +1,70 @@
+.pull-out-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  &_active {
+    display: block;
+  }
+
+  &__hold {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 265px;
+    height: 100%;
+    background: #282828;
+    z-index: 2;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: .4s;
+
+    &_active {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  &__wrapper {
+    display: block;
+    height: inherit;
+    overflow-y: auto;
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    z-index: 2;
+    display: block;
+    width: 53px;
+    height: 53px;
+    padding: 17px 0 0 17px;
+    transition: opacity .3s;
+    opacity: 0;
+
+    &_active {
+      opacity: 1;
+    }
+  }
+
+  &__substrate {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.8);
+    z-index: 1;
+    transition: opacity .3s;
+    opacity: 0;
+
+    &_active {
+      opacity: 1;
+    }
+  }
+}

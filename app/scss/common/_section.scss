@@ -1,0 +1,36 @@
+.section {
+
+  &-black {
+    background: $c-bg-main;
+    padding: 0 10px 10px;
+
+    @media screen and (min-width: 632px) {
+      width: 632px;
+      margin: 0 auto;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 1024px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  &-light {
+    background: $c-light;
+    margin-top: -2px;
+    padding: 0 0 20px;
+    
+    & .catalog_cent {
+      background: #191a1b;
+    }
+
+    & .dis_res {
+      padding-left: 10px;
+      padding-right: 10px;
+      background: $c-light;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import "./interrupt";
+@import "./base/collect-base";
+@import "./common/collect-common";
+@import "./btn/collect-button";
+
+//component
+@import "./header/collect-header";
+
+
+
+@import "./footer/collect-footer";
+@import "./popup/collect-popup";
+
+//page
+@import "./page/index/collect-index";
+@import "./page/breadcrumbs/collect-breadcrumbs";
+@import "./page/catalog-filter/collect-catalog-filter";
+@import "./page/page-title/collect-page-title";
+@import "./page/catalog/collect-catalog";
+@import "./page/filter/collect-filter";
+@import "./page/view/collect-view";
+@import "./page/cart/collect-cart-mob";
+@import "./page/search/collect-search-page-mob";
+@import "./page/page-mob/collect-page-mob";

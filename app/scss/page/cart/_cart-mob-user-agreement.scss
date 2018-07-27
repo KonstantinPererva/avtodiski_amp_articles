@@ -1,0 +1,50 @@
+.cart-mob-user-agreement {
+  display: flex;
+  padding: 20px 10px;
+  width: 300px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1024px) {
+    order: 2;
+  }
+
+  &__link {
+    font-size: 14px;
+    text-decoration: underline;
+    color: $c-text-main;
+    font-family: $f-os;
+    position: relative;
+    top: 3px;
+  }
+}
+
+.mobile input[type="checkbox"] + label.cart-mob-user-agreement__label:before {
+  flex-shrink: 0;
+  content: '';
+  position: static;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #fbe11a;
+  background: #fff;
+  cursor: inherit;
+  border-radius: 2px;
+  margin: 0 14px 0 0;
+}
+
+input[type=checkbox]:checked + label.cart-mob-user-agreement__label:before {
+  background: #fff url(/images/mark.png) no-repeat center;
+}
+
+.mobile input[type=checkbox] + label.cart-mob-user-agreement__label {
+  width: 22px;
+  flex-shrink: 0;
+  display: block;
+  align-items: center;
+  margin: 0 14px 0 0;
+  padding: 0;
+
+  @media screen and (min-width: 632px){
+    width: 22px;
+  }
+}

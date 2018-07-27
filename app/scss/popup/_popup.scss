@@ -1,0 +1,19 @@
+.popup {
+  width: 280px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: $c-light;
+  opacity: 0;
+  transition: opacity .3s;
+  z-index: 5000000;
+
+  &_active {
+    opacity: 1;
+  }
+
+  &__content {
+    position: relative;
+  }
+}

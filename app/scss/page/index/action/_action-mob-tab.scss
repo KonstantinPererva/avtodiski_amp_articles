@@ -1,0 +1,17 @@
+.action-mob-tab {
+  min-height: 434px;
+  overflow: hidden;
+  padding: 0 0 15px;
+
+  &__swiper {
+    display: block;
+    width: 100%;
+    padding: 17px 0 0 10px;
+
+    @media screen and (min-width: 1024px) {
+      width: 984px;
+      margin: 0 auto;
+      padding: 17px 0 0;
+    }
+  }
+}

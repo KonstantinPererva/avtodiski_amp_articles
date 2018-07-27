@@ -1,0 +1,140 @@
+.filters-search-body {
+  display: none;
+  flex-wrap: wrap;
+  padding: 10px 15px 20px;
+
+  &_active {
+    display: flex;
+  }
+
+  &_no-flex {
+    display: none;
+
+    &_block {
+      display: block;
+    }
+  }
+
+  & .label_hide {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  & .filters_brends_js, & .filters_color_js {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  & .left, & .right {
+    flex-shrink: 0;
+    display: flex;
+  }
+
+  & .left {
+    margin: 0 10px 0 0;
+
+    @media screen and (min-width: 632px) {
+      margin: 0 20px 0 0;
+    }
+  }
+
+  & .filters_ra {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    & li {
+      flex-shrink: 0;
+      display: block;
+      width: 128px;
+    }
+  }
+
+  & .left .title_select, & .right .title_select {
+    display: block;
+    width: 41px;
+    height: 32px;
+    background: #e6e6e6;
+    font-size: 13px;
+    line-height: 32px;
+    text-align: center;
+    color: #191a1b;
+    font-family: "OpenSans", sans-serif;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+  }
+
+  & .jq-selectbox__select {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    width: 87px;
+    height: 32px;
+    padding: 0 12px;
+    border: 0;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0;
+
+    @media screen and (min-width: 360px) {
+      width: 100px;
+    }
+
+    @media screen and (min-width: 375px) {
+      width: 110px;
+    }
+
+    @media screen and (min-width: 400px) {
+      width: 124px;
+    }
+
+    @media screen and (min-width: 632px) {
+      width: 176px;
+    }
+  }
+
+  & .jq-selectbox__select-text {
+    color: #191a1b;
+    font-size: 13px;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 900;
+  }
+
+  & .jq-selectbox__trigger {
+    top: -2px;
+    width: 25px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+  }
+
+  & .jq-selectbox__trigger-arrow {
+    position: static;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 7px 0 7px;
+    border-color: #3d3d3d transparent transparent transparent;
+  }
+
+  .jq-selectbox {
+    width: auto;
+  }
+
+  .jq-selectbox ul {
+    height: 196px;
+    border: 0;
+  }
+
+  .jq-selectbox li {
+    padding: 10px;
+  }
+  
+  & a {
+    color: #fff;
+    font-size: 14px;
+    font-family: $f-os;
+  }
+}

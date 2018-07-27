@@ -1,0 +1,69 @@
+.filters-search-material {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 33px;
+  padding: 0 15px;
+
+  @media screen and (min-width: 632px) {
+    //justify-content: center;
+  }
+
+  & a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: $f-os;
+  }
+}
+
+.mobile {
+  & input[type=checkbox] + label {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    width: 134px;
+    margin: 0 0 14px 0;
+    padding: 0 10px 0 0;
+
+    @media screen and (min-width: 632px) {
+      width: 197px;
+    }
+  }
+
+  & input[type="checkbox"] + label:before {
+    flex-shrink: 0;
+    content: '';
+    position: static;
+    display: block;
+    width: 28px;
+    height: 28px;
+    border: 1px solid $c-main;
+    background: #fff;
+    cursor: inherit;
+    border-radius: 2px;
+    margin: 0 7px 0 0;
+  }
+
+  & input[type=checkbox]:checked + label::before {
+    background: #fff url(/images/mark.png) no-repeat center;
+  }
+}
+
+input[type="checkbox"] + label:before {
+  flex-shrink: 0;
+  content: '';
+  position: static;
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid $c-main;
+  background: #fff;
+  cursor: inherit;
+  border-radius: 2px;
+  margin: 0 7px 0 0;
+}
+
+input[type=checkbox]:checked + label::before {
+  background: #fff url(/images/mark.png) no-repeat center;
+}

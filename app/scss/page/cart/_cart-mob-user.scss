@@ -1,0 +1,9 @@
+.cart-mob-user {
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    width: 314px;
+  }
+}

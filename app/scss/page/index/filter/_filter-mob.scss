@@ -1,0 +1,53 @@
+.filter-mob {
+  position: relative;
+  z-index: 5;
+  background: $c-bg-main;
+
+  &__box {
+    display: none;
+    background: $c-bg-main;
+    padding: 0 10px 30px;
+    min-width: 320px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 640px) {
+      display: block;
+      width: 306px;
+      margin: 0;
+      padding: 0 0 30px;
+      min-width: 306px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 314px;
+    }
+
+    &.banner-mob {
+      display: none;
+      padding: 0;
+
+      @media screen and (min-width: 1024px) {
+        display: block;
+      }
+    }
+
+    &_active {
+      display: block;
+    }
+  }
+
+  &__wrapper {
+
+    @media screen and (min-width: 640px) {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      width: 632px;
+      margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 984px;
+    }
+  }
+}

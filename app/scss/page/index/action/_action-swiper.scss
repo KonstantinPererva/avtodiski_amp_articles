@@ -1,0 +1,26 @@
+.action-swiper {
+
+  &__pagination {
+    display: block;
+    text-align: center;
+    padding: 20px 10px 15px 0;
+
+    &.swiper-pagination-bullets .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background: #a3a3a3;
+      opacity: 1;
+      margin: 6px !important;
+      outline: none;
+    }
+
+    &.swiper-pagination-bullets .swiper-pagination-bullet-active {
+      background: $c-main;
+      outline: none;
+    }
+
+    &.swiper-pagination-bullets {
+      width: 100%;
+    }
+  }
+}

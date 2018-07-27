@@ -1,0 +1,15 @@
+.detail-mob-warning-info {
+
+  &__ico {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px 0 0;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: $f-os;
+    color: $c-text-main;
+  }
+}

@@ -1,0 +1,25 @@
+.detail-mob-price-button {
+  padding: 20px 0;
+
+  & .button-mob {
+    width: 300px;
+    margin: 0 auto;
+
+    &_buy {
+      height: 40px;
+      line-height: 38px;
+    }
+
+    &_quick-order {
+      padding: 8px 0 0;
+    }
+  }
+}
+
+.detail-mob-price-button .button-mob_buy .button-mob__text {
+  font-size: 16px;
+}
+
+.detail-mob-price-button .button-mob_quick-order .button-mob__text {
+  font-size: 14px;
+}

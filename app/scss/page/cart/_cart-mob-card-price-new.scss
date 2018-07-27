@@ -1,0 +1,24 @@
+.cart-mob-card-price-new {
+  display: block;
+  text-align: center;
+
+  &__num {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: $f-os;
+    color: $c-text-main;
+    font-weight: 900;
+  }
+
+  &__currency {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: $f-os;
+    color: $c-text-main;
+    font-weight: 900;
+  }
+}

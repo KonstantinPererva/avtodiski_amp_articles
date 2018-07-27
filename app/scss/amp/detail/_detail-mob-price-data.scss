@@ -1,0 +1,48 @@
+.detail-mob-price-data {
+
+  &__wrap {
+    display: inline-flex;
+    align-items: flex-end;
+    position: relative;
+    top: 5px;
+    margin: 0 10px 0 0;
+  }
+
+  &__title {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 14px;
+    color: $c-text-main;
+    font-family: $f-os;
+    margin: 0 10px 0 0;
+  }
+
+  &__num {
+    display: block;
+    flex-shrink: 0;
+    font-size: 30px;
+    color: $c-text-main;
+    font-family: $f-os;
+    font-weight: 600;
+    margin: 0 8px 0 0;
+  }
+
+  &__currency {
+    display: block;
+    flex-shrink: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: $c-text-main;
+    font-family: $f-os;
+    font-weight: 600;
+  }
+
+  &__old {
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 18px;
+    color: $c-red;
+    font-family: $f-os;
+    text-decoration: line-through;
+  }
+}

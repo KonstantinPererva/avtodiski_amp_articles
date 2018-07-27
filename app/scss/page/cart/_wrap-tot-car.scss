@@ -1,0 +1,13 @@
+.wrap-tot-car {
+
+  @media screen and (min-width: 640px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 30px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 10px;
+  }
+}

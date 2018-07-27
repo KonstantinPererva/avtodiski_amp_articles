@@ -1,0 +1,90 @@
+.search-mob {
+  display: block;
+  width: 40px;
+  height: 56px;
+  padding: 17px 0 0 10px;
+
+  @media screen and (min-width: 360px) {
+    width: 50px;
+    padding: 17px 0 0 17px;
+  }
+
+  @media screen and (min-width: 640px) {
+    display: none;
+  }
+
+  &-form {
+    position: fixed;
+    display: none;
+    width: 310px;
+    z-index: 5000000;
+    right: 0;
+    top: 56px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media screen and (min-width: 640px) {
+      position: relative;
+      z-index: 7;
+      display: block !important;
+      opacity: 1 !important;
+      top: 0;
+      left: auto;
+      transform: translateX(0);
+    }
+
+    &_active {
+      display: block;
+    }
+
+    &__input {
+        width: 310px;
+        height: 42px;
+        border: 1px solid $c-main;
+        border-radius: 2px;
+        background: $c-bg-main;
+        padding: 0 16px;
+        color: #fff;
+        font-family: $f-os;
+        outline: none;
+    }
+
+    &__submit {
+        position: absolute;
+        top: 1px;
+        right: 0;
+        width: 50px;
+        height: 40px;
+        border: 0;
+        border-radius: 0;
+        background: none;
+        padding: 0;
+        user-select: none;
+        z-index: 1;
+        outline: none;
+    }
+
+    &__ico {
+        position: absolute;
+        top: 9px;
+        right: 16px;
+        display: block;
+        padding: 0;
+        user-select: none;
+        fill: $c-main;
+    }
+  }
+}
+
+
+#search_inp_ajax_rez {
+
+  @media screen and (min-width: 640px) {
+    top: 43px;
+
+    & ul {
+      height: 277px;
+      overflow-y: auto;
+    }
+  }
+}

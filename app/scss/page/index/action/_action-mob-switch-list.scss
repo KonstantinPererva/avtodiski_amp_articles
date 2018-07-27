@@ -1,0 +1,24 @@
+.action-mob-switch-list {
+  background: $c-bg-main;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  &__item {
+    flex-shrink: 0;
+    width: 160px;
+
+    @media screen and (min-width: 640px) {
+      width: 216px;
+    }
+  }
+}

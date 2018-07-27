@@ -1,0 +1,24 @@
+.pull-out-menu {
+
+  &__hold {
+    width: 100%;
+    height: 100%;
+    background: #282828;
+  }
+
+  &__wrapper {
+    display: block;
+    height: inherit;
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 47px;
+    height: 47px;
+    padding: 13px 0 0 13px;
+  }
+}

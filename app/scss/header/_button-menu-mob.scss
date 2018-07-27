@@ -1,0 +1,19 @@
+.button-menu-mob {
+  display: block;
+  width: 55px;
+  height: 56px;
+  background: $c-main;
+  padding: 18px 0 0 15px;
+
+  &__item {
+    display: block;
+
+    &_top {
+      margin-bottom: 4px;
+    }
+
+    &_middle{
+      margin-bottom: 4px;
+    }
+  }
+}

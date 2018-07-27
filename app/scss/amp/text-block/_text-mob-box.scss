@@ -1,0 +1,38 @@
+.text-mob-box {
+  position: relative;
+  padding: 5px 0;
+
+  & ol, & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+  }
+
+  & ol li p, & ul li p {
+    padding: 0;
+  }
+
+  & h1 {
+    font-size: 18px;
+  }
+
+  & h2 {
+    font-size: 16px;
+  }
+
+  & h3 {
+    font-size: 15px;
+  }
+
+  & h4 {
+    font-size: 14px;
+  }
+
+  & h5 {
+    font-size: 13px;
+  }
+
+  & h6{
+    font-size: 12px;
+  }
+}

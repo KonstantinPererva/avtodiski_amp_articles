@@ -1,0 +1,44 @@
+.action-mob-switch {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+
+  &_active {
+    z-index: 1;
+
+    & .switch-substrate__img {
+      fill: $c-light;
+    }
+
+    & .action-mob-switch__text {
+      color: $c-text-main;
+    }
+  }
+
+  &__substrate {
+    display: block;
+    position: absolute;
+    top: 0;
+
+    &_left {
+      left: -2px;
+    }
+
+    &_right {
+      right: -2px;
+    }
+  }
+
+  &__text {
+    position: relative;
+    display: block;
+    color: $c-main;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: $f-os;
+    z-index: 3;
+  }
+}

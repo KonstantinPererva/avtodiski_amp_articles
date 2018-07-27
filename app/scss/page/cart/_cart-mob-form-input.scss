@@ -1,0 +1,36 @@
+.cart-mob-form-input.styler,
+input[type="email"].cart-mob-form-input.styler,
+input[type="number"].cart-mob-form-input.styler,
+input[type="password"].cart-mob-form-input.styler,
+input[type="search"].cart-mob-form-input.styler,
+input[type="tel"].cart-mob-form-input.styler,
+input[type="text"].cart-mob-form-input.styler,
+input[type="url"].cart-mob-form-input.styler{
+  position: relative;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 34px;
+  background: #fff;
+  border: 1px solid #a3a3a3;
+  color: $c-text-main;
+  font-family: $f-os;
+  font-size: 14px;
+  box-shadow: none;
+  border-radius: 2px;
+}
+
+.mobile #comment_textarea {
+  position: relative;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #a3a3a3;
+  color: $c-text-main;
+  font-family: $f-os;
+  font-size: 14px;
+  box-shadow: none;
+  border-radius: 2px;
+  resize: none;
+}

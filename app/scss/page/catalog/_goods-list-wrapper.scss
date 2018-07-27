@@ -1,0 +1,16 @@
+.goods-list-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 632px) {
+    width: 632px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 960px;
+  }
+}

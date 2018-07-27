@@ -1,0 +1,32 @@
+.breadcrumbs-mob-link {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+
+  &__text {
+    display: block;
+    font-size: 12px;
+    font-family: $f-os;
+    color: $c-main;
+  }
+
+  &_active {
+
+    &:after {
+      content: '>';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      margin: 0 0 0 8px;
+      color: $c-breadcr;
+      font-size: 12px;
+      font-family: $f-os;
+    }
+
+    & .breadcrumbs-mob-link__text {
+      color: $c-breadcr;
+    }
+  }
+}

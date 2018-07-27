@@ -1,0 +1,25 @@
+.table-price {
+
+  &__text {
+    color: #a99608;
+    font-size: 9px;
+    font-family: $f-os;
+    font-weight: 900;
+
+    @media screen and (min-width: 360px) {
+      font-size: 12px;
+    }
+
+    @media screen and (min-width: 400px) {
+      font-size: 13px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 15px;
+    }
+
+    &_num {
+
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.cart-mob-amount {
+
+  &__text {
+    font-size: 14px;
+    font-family: $f-os;
+    color: $c-text-main;
+  }
+
+  &__sum {
+    font-size: 14px;
+    font-family: $f-os;
+    color: $c-text-main;
+    font-weight: 900;
+  }
+}

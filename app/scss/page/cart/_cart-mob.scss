@@ -1,0 +1,22 @@
+.cart-mob {
+  background: $c-light;
+
+  &__inner {
+    margin: 0 auto;
+
+    @media screen and (min-width: 640px) {
+      width: 640px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 984px;
+      min-height: 944px;
+    }
+    
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+}

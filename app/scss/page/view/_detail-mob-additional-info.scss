@@ -1,0 +1,16 @@
+.detail-mob-additional-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrap-img {
+    flex-shrink: 0;
+    width: 50%;
+    padding: 20px 15px;
+  }
+
+  &__img {
+    display: block;
+    width: 100% !important;
+  }
+}
